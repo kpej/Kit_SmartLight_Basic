@@ -27,8 +27,8 @@ cds_pin  = ADC(Pin(A3))                            # 조도 센서
 echo_pin = Pin(D8)                                 # 초음파 센서 수신부
 trig_pin = Pin(D9)                                 # 초음파 센서 송신부                
 
-blue_led  = Pin(D3)                                # 가로등 파란색 LED
-green_led = Pin(D4)                                # 가로등 녹색 LED
+blue_led  = Pin(D2)                                # 가로등 파란색 LED
+green_led = Pin(D3)                                # 가로등 녹색 LED
 
 cds_threshold = 800                                # 조도 센서 임계치
 usw_threshold = 10                                 # 초음파 센서 임계치
